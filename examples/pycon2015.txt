@@ -1,0 +1,490 @@
+The pycon edu summit started 3 years ago, with Naomi Ceder as Chair. Saw
+effective presentations about sharing python in university and the community.
+She stepped down, and I volunteered, still not sure why though ;)
+
+We have represetnation from all ov erht eworld, from Peru/UK, and elsewhere.
+
+We used google moderator to choose the talks, we'll talk about that process
+later and whether it is a good fit.
+
+we'll take a break at 10:50pm, then more talks, then lunch. The room will then
+be split into 2 portions.
+
+WE'll have another break at 3pm, and then bring the rooms back together. At 2
+diff times during the day, we'll have lightning talks.
+
+Jess Nickel
+
+Currently, Dr. Chuck is the chair of the projct managment committe for Sakai.
+He teaches 2 moocs on coursera, computing hisotyr, and programming for
+everybody. A longtime advocate of FOSS, he's placed all of his content on
+pythonlearn.org. Please welcome, Dr. Charles Severance, or Dr. Chuck.
+
+Dr. Chuck.
+    I haven't been to a pycon in a while, as it is also the last week of
+    classes at university... but, the invitation to come to this summit was
+    too wonderful to resist.
+
+    The title of my talk, "Programming for everybody" has been a theme of
+    htise community for a long time. I have tatoo on both shoulders, left is
+    about education, where I have Michigan state, and the right shoulder is
+    about research, like the Sakai project. My CV is tatood on my shoulders.
+
+    Let's hit a couple fo fun things. Python is a valuable skilsl these days.
+    You can make a 6 figure income where python is used. THings like
+    datamining, and others, are becoming exceedingly valuable. It is a
+    first-class skill in NLP and datmining. The popularity of python is moving
+    into colleges now, as it is more cpproachable, and an easier ramp to elarn
+    CS.
+
+    I come from U of Mich school of information. It's not a cs department, we
+    are a former library school, but we built this new undergrad curriculum.
+    We were the first schoolin the world to build a masters in information
+    program. WE have many programming langauges, but also a storn glib arts
+    tradition. Swift, obj-c, and others. Game theory, network anlaysis, and
+    datamaing. Not just tech for tech sake, but to solve the problems of
+    biz/socity. If you look at our admissions, it is diff than most program.
+    Over 50% females apply and graduate, and this year, over 60%! We think
+    python is a big part of that.
+
+    I teach on coursera. There are a lot of rooms I wlak into that don't know,
+    but that is not the case here. The #1 search term? PYTHON!
+
+    The top 10 terms have something to do with programming. There is an
+    interesting, if you look at the age, there are some in highschool, some in
+    college, and a LOT after college. LEarning to progrma, and leanring to
+    python, is something that people are interested in. There are 60 year olds
+    taking my courses, even if they were a lawyer.
+
+    My class was designed after I took the othe rRice University classes. They
+    have a CS0 type of class, and a CS1-2. My class is like CS -1 :)
+
+    I'm trying to get as many people as possible. I teach a class called
+    interenet history, technology, and security. U of Mich was one of the 4
+    founding organizations, and I had the 15th course.
+
+    A year and a half ago, I started teaching python. My internet history
+    starts at 56K, but then follows the same pattern. We're teaching 20K
+    students at the end...
+
+
+    My python 30, 56, 102, 159K... we are on pace to almost double. The next
+    time I teach this class, it could be as high as 300K
+
+    That will mean I have taught 3/4 of a milllion people... a few more
+    semesters, and I will have taught a million.
+
+    Ther is a lot of hype around MooCs. WE've generated about 350K, and some
+    of that goes into my paycheck.
+s 
+    Python for Informatics. The revenue is going up, and it can almost pay for
+    a plane ticket! The book is free, but you can buy a printed copy for 9.99.
+
+    This is a specialization, something that coursera does. This had made
+    $3.5M, becuase you can sell a certificate while offering a free course.
+
+    I worked
+
+    Khan academy has a relatively militant view of highschool education. They
+    are about getting students excited, rather than beating them over the head
+    with an AP textbook. They teach JS, not surprrisingly, but we've worked
+    python into their class.
+
+    This is a follow-on to my class, where I focus on Data analsyis, rather
+    than CS.
+
+    It is exciting to be part of the pyton, comunity.
+
+    It is fun to read the articles. some say it is a "flash in the pan" and
+    they are grumpy about the takeover of python.
+
+    I'll call your attention to a proposal that Guido made to Darpa, about
+    making investment in python as a teaching langauge in 1999. This has been
+    part of our dna since the very beginning.
+
+    I write a monthly column for IEEE magazine, and they give my travel budget
+    to interview people. I went to dropbox, and met with Guido, and recorded a
+    message for all beginning python students.
+
+    My idea with this was, that I wanted to put it up on Youtube.
+
+
+    The other thing that is baked into our community is Open Source. This
+    story of the "think python" started before opencoursware at MIT, and
+    before creative commons, this community was making intellectual property
+    freely available for learning.
+
+    Why did Alan and Jeff decide to give the books away? It was alreayd part
+    of the culture here. the founding essance of pyton in education is "do
+    somethig".
+
+    All my python assignemtns are done by an auto-grader.
+
+    Sugi.org based off of Sculpt, and in browser compilier that turns pythong
+    into javascript.
+
+    if you look at the other courses in coursera by Rice University, they too
+    use sculpt. Open is about giving to the future.
+
+    Khan Academy? Guess what tech is critical to adding python there? Sculpt!
+    Free, Free, Free. Free paying it forward.
+
+    I'm not trying to be the world's teacher. I see my course as a teacher
+    training job. I want them to take my MooC, and then teach. I think that
+    all highschools should be teaching python. every single part of my course,
+    everything that I write is free and open.
+
+    This may seem illogical, but it leads to things you cannot believe. I have
+    htis prof in India, who takes my stuff, and ships on on DVD's to students.
+
+    All we need to konw is that if you give, you are chanign the future.
+
+    When you have 150K students, you can get things done. My slides ahve been
+    translated into 150 langauges. If I was perrson, this would not happen. I
+    have given, and they will give as well.
+
+    The book has been translated into spanish, and korean. I was given by Alan
+    permission to do what I wanted to do with the book. It was GFDL, I made it
+    CC-BY-NC-SA, with an asterix. If you made a trnaslation, I would remove
+    the NC, and let you make all the money off of it.
+
+    Python says "I will give my stuff away" We all benefit when someone makes
+    a translation.
+
+    If the observed affect over the last 15 years is that python has emerged
+    as the leading langauge to engage with a broard range of programmers, what
+    is the cause?
+
+    YOU!
+
+    What other programming language has a group like this that is thinking
+    about how to teach with it? M$ tries to bribe folks to do this sure, but
+    do those other langauges have this? 15 years of passionate teachers, who
+    are trying to advance?
+
+Q:  What is the biggest challenge?
+A:  I don't belive the teachers are the problem, but the curriculum. Khan
+    Academy, with it's pirate flag, is going to be the solution. Some
+    teachers, during afterschool classes, will create so much value, that'll
+    backfill. I think it's going to take 15 years, and that it won't be next
+    year.
+
+    The federal gov in the UK is at least Saying the right things, maybe they
+    are doing them too. The spreadsheet is not the solution to all the world's
+    problems.
+
+    Thank you.
+
+
+
+As I've tried to teach people python, I've had to use IDLE, which I basically
+swap out as soon as possible.
+
+Bonjour! I'm Al. It is a great honor to be here talking about the future of
+education. I'd like to begin by talking about php.
+
+PHP has a reputation for not being so elegant, but it is easy to start with,
+and easy to install. Getting to "hello world" only takes 3-4 steps. This is
+why you can find php on so many webhosts.
+
+PHP is really easy to get started with. Hello world is only 1 line long.
+
+Python gets a lot of things right. It is easy to install, and easy to get
+started with. It comes with IDLE, the graphical IDE. Smalltalk maybe came with
+one, but no other languages seem to come with them.
+
+
+I don't know many professional python programmers who use IDLE as their
+primary IDE.
+
+
+I've written a few books and put them online.
+
+http://inventwithpython.com
+
+I have a huge interest in getting people to code. It is like playing an
+instrument, or konwing how to ask where the bathroom is in a forieigh
+language; it makes you an intersteing person.
+
+I have a personal obsession with the 1980 movie Robocop. Robocop is programmed
+with 3 laws, in a very asimovian way. I thought this would be a good fit for
+IDLE.
+
+1) IDLE should be a teaching tool, not a dev tool
+2) IDLE should come with python, and uses only stdlib.
+3) IDLE should be fully functional offline, but have online features.
+
+
+Features:
+    Single window tabbed interface. 
+        The IDLEX project already does that.
+    Auto-save. 
+        I teach at an afterschool program in Oakland, sometimes when people
+        plug things in, it trips the breaker for the whole room.
+    Foreign Language Support.
+        we can't change the python language itself, but scratch has a dropdown
+        for changing the language settings, built right into it.
+    Plain-spoken error messages and web search
+    Integrated Pastebin
+    Integrated pip
+    Python 2/3 check
+
+And now for something completely different...
+
+This is code academy. There are many sites like this, but they all basically
+have a section to talk about the lesson, and a place to write your code, and
+an output screen.
+
+We could have IDLE implement it's own interative tutorials. It could come with
+it's own IDE, but also a tutorial system, and everyone could add their own
+lessons. You could maybe install through pip! NedBat has a project on github
+called "Choosey" that allows you to do this with Django.
+
+No other language does this, having a way to learn the language that comes
+with the langauge itself. This woudl help to really grow the community.
+
+
+http://InventWithPython.com
+al@InventWithPython.com
+@AlSweigart
+GVR
+hello everybody
+
+Glad to see you all.
+
+I've been incredibly inspired by the conference. Any idea I had for a keynote
+was changed.
+
+I'm going to start with a few topics I know will come up anyways.
+
+I don't want to get into this "Grandpa, tell us again the story with the
+potato..."
+
+Python3
+
+Yes, you should all use python3. I know you wall want too, but I know it is
+different, and difficult. You have large amounts of python2 code you've got in
+production, and you've ported to 2.79, and you're proud. But the steps between
+are phenomenal... you have to actually understand your code, so we've given
+you 5 more years, during which, you all with existing motivations, you can put
+the work in.
+
+
+I know how hard of work it is. Sure, you don't get the satisfaction of 
+"I launched a new feature" 
+Does it do the same thing? Yes. 
+The exact same thing? Hopefully. 
+You have to do the work, so that the next feature you launch will go better.
+
+
+There are lots of things that still suck in the ecosystem when it comes to
+python3 support. I'm quoting glyph. He looked on pypi, and said there were 55K
+packages on there, and 5K for python3. Of those 5K, included are the top 1K
+projects.
+
+He showed a typical mid-tier application, which had 7-8 deps in the long-tail
+of the 55K packages not ported yet. You can go and track down the author and
+port to python3, but often, the longtails of packages are like spikes.
+
+"The ultimate django datepicker," for example. You're working on a site, and
+you do the right thing, and you clean your code, and you release it open
+source.
+
+You are the BDFL of a 5K lines open source project. Github, bugtracker, email
+address with feature requests coming in. Then maybe you move to a new job a
+year later, and migrate to new tech, or retire and grow grapes, but your name
+is still on that django-date package. Everyone is still looking to you as the
+owner of that package to port it. You don't care, because you grow grapes
+now...
+
+Should we get angry at you, because you are no longer maintaining code? No, I
+think we should be grateful we didn't have to write a less-ultimate django
+datepicker. 
+
+You can put your packages into a home, where they are being taken
+care of, or put them up for sale, or adoption. 
+
+"Gently used" 
+"needs port to python3" 
+
+But I've never seen an announcement. I've seen hostile forks, or people
+complaining about forks not happening, but I've never seen an owner actively
+search for a new maintainer. They care a little bit, because if they wrote 10
+packages, they put it on their resume. That sort of gives the employer a bit
+of confidence, and that is great, so they don't want to give them away
+completely. But maybe they want to invite a co-owner to help port, which is
+usually not a big deal. Import six, change a few lines, it needs to be done.
+
+There is a lot of resistance to do this with someone else's package. How do
+you  advertise? You can't put a forwarding link on the Hompage. There are
+pages with instructions on how to get things done
+
+
+PIL was replaced by pillow a long time ago. No where does it say "PIL is no
+longer maintained, use pillow"
+
+We need a way to notify owners of the "one time spike" projects. Maybe they
+even do regular releases, and accept patches, but there are plenty of things
+written in 2011 that are still working... maybe we should datamine the entire
+pypi database, and find all projects that haven't gotten new files in the last
+6 months, email them, and then ask if it would be ok if a co-owner stepped
+forward? We have to get to the point where there is a model for that. There is
+a model for how to start a project, "the lone programmer" who releases open
+source, and it is so useful a community grows around it. Most people have that
+model in mind, but most pypi packages don't fall into that category.
+
+
+Food for thought.
+
+I had a good convo with glyph on this a few days ago.
+
+I don't want to say much about types...
+
+Don't worry, python is not getting types, we're agreeing on a notation for
+type-checking. Pycharm has a typechecker built in, and such IDE's can do a
+better job of giving you suggestions of methods. Google is converting a large
+codebase from python2 to 3, and type annotations play a role in that.
+
+Mypy started this, which is an offline type checker, that ensures consistency.
+You can choose to run it. If you wan tot konw more, read pep 484, and come to
+my keynote.
+
+I recently gave a talk at a python meetup in Iraq. It was over skype, so I
+felt safe. the whole CS facluty was there, and a professor gave an overview of
+pythong, with a video interveiw with me. The point was to introduce pythong in
+that college. They were using java/c++. She sent me pictures after, and half o
+fthe people in the audience were women, all wearing headdresses. Women go to
+school in technical fields in large numbers in those countries.
+
+
+Less pleasing, the language summit on Wednesay had zero women. I don't htink
+there is a single core committer who is female ot python. I want at least 2
+core committers by next year, and I will train them myself if that is what it
+takes.
+
+let me tell you what it takes. Lucas, told me his story of how he became a
+core dev. He had 8 weeks, and made a complicated fix to a nasty problem. Now
+the python comitter machine would jump into action and accept my patch. After
+5 weeks, he still wouldn't have heard anything back. He jumped into IRC, and
+ran into Raymond Hettinger, being the edu/tuorial person and prolific core dev
+he is, helped lucas over 3 weeks. Raymond took up a sponsor role, and told the
+other committers that he needed to get a commit bit. He got committer bit, but
+that was an intense process. Be ware, the amount of self-motivation and
+committment, and pre-existing knowlege of cranky tools will be useful. It is
+possible, and we can do it.
+
+We have 10 mintues for Q&A, and I would like the first question to be from a
+girl or woman. I'm an experienced communty manager in Opne Source. I'm curious
+about what tools we could make for making new maintainer status easier. Yes
+ther eis a problem of attention, and motiviation to push through difficulties,
+in your experience, what tools could we make to make that process easier for
+core devs coming in, or core devs existing to help?
+
+
+A: I think that a bunch of documentation that gives a starter set of problems
+that a new core dev may want to try to solve would be a good way to start.
+Writing these things is not just about making it and running away, but
+iterating over it after every new core dev. The author can update and clarify
+and cut things, or split it into versions with more or less initial experience
+in certain tools. Proposals to modernize the toolchain would be good.
+
+Q:  Is the code review dashboard good enough?
+A:  I don't know if it is maintained.
+
+Q:  A friend of mine were discussing this diversity, nto just that we need
+more wmoen because it looks better, but the new perspective that anyone from a
+background can change th ewya we look at code. I'd like that ot be the good.
+There are perpsectives that we are not privvy to.
+
+Q:  I have 2 things: I wanted to bring up the fact that we can look at
+diversity as just women, but if we look at dev teams, there is huge exclusion
+of non-whites. I'd like all of us to do reach-out in our communities to make
+everyone feel inclusive. Last year I asked you a question on how do we help
+peopel get to ptyong 3 when everyone is learning in python2.
+
+Q:  Carol. I've been lurking on the cpython mail llist for a year and ahlf. It
+is not that scary, peopel are quite posivit and helpful. It is somehting that
+i think pepole can participate in. Selena was the one rep at the language
+summit. It was great to have dinner with her an dher baby june, and what I'm
+hoping, I've spent a lot fo time on onboarding with opehatch. I've taken all
+the research, and pyladies has put together a jazzy groove guide to
+contirbuting to cpython. WHat wer're hoping is to sprint on it, and perhaps
+maybe you'd like to join us?
+
+Q:  I submitted a small patch to the xml parsing library, and i watched the
+trehad, and the patch never got accepteed. I saw some things I thought could
+be improved. If I wanted to propose a change to the contribution process,
+where is the proper place to make that?
+
+A:  It is often a good idea to send an emila to python-dev, saying there is an
+easy patch up for reveiw that isn't reviewed yet. Epxlian what the problem is,
+and how it is being fixed. For more info, see the bugtracker issue. All the
+core devs read the python dev list, so point to your patch that way. Very few
+people systematically scour the bug tracker fo rubgs they hsould be working
+on. There are some people who troll the bug tracker for things that need
+atteniton, but in the reality, there are so many bugs taht don't make progress
+for other reasons, for being obscure, or not having a patch that works for all
+use-cases. Don't give up, and be a squeaky wheel on python dev.
+
+Q:  There are 2 peps to change our process to make the turn around time on
+patches. You can talk to me, or you can read the peps. 
+
+
+I'm going to be talking about the protest ensemble anonymous. They may be some
+of the most politically incorrect activists in the world. 
+
+Who here has met an anthropologist? Thy are not too common. When I tell my
+accountant/doctor, they usually think I work in the jungle, with skulls, but
+then i tell them about
+hackers.
+
+I tell people, when i keep it simple, the affect that free softrware has had
+on people. Free software is the one drug that improves your life.
+
+This was culminated in a book, Coding Freedom. This book is an ethnography of
+Debian, and how governance and humor impact battles over software and code. I
+did something foolish, which was right after finisihing this book, I started a
+second book. Hacker, Hoaxer, Whistleblower, Spy. The many faces of anonymous.
+It is a phenonoma that is difficult to define. it is ap protest movment,
+activiest to have competiting activest and groups, meetging groung of
+art/tech. Within the collective, they ahve a strong against fame seekinging.
+Unlike free software, where reeasrch was plan an simple, the anan reaserch was
+thrilling and frustrating. The maze is the master metaphor of the book. you
+feel like you're living the reality of a puzzle. SOmeone said, after readin
+gmy book, "i Oulw have los tmy mind reaseraching" I became incredibly
+paranoid, and it would shoot up when Sabu was an FBI informant. It is so
+difficult to define, it's a set of ideas and iconography. Patches are welcome
+by anyone, and you get s trange mix of contributors. Github makes forking
+easy, and forking is incredibly common in anon. Other groups form out of the
+bolue. It is dymnaimc an dchaortic social scense. The name, free to take by
+anyone, isn't new. SImliar groups have xisting near and far history. 
+
+
+Luther Blisset was invented by italian activiest in 94.
+
+Captain swing was a collective name taken by farmers when they wrote letters
+of protest. Colledtive namemaking has been in th past.
+
+
+
+Anno is filled with geeky hackers. I spent an enormous amount of time on IRC.
+Much was organizaed, maybe stupidly, in public channels. If you hang around
+long enough, you get put ot gwork. I was the gopher for jrouanlists. I taught
+more journalists onto IRC> I tranlsated druing interviews. This was one of my
+main roles. ANon became much less anonymous. Much of my research moved
+offline, an dinto curts and jails. Jeremy hammond, I met nearly all of hte
+arrested hackers. IF you were in anon hacking, it was a good idea to be on the
+other side o the atlantic.
+
+This was a play about anon, and we did a panel. Getting to meet people changed
+the tenner of hte research. Though I said it was difficult to defin, there are
+ways ot define it:
+
+Multitudious, proflific, and unpredicatable. Today, it is associated with
+politics and activism. it is about disobaying unjust lawas, political
+movements, occupy, ferguson. Anon DDoS'd a polic website in quebec and took it
+down yesterday.
+
+Anonymous was never supposed to be a policial thing... someone who was in the
+early days, they said it wasn't supposed to be political. It was a name used
+for internet trolling, offensive and fearful intense pranking.
