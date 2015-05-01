@@ -44,8 +44,9 @@ text = text.replace("LUKE'S", "Luke")
 
 # adding movie script specific stopwords
 stopwords = STOPWORDS.copy()
-stopwords.add("int")
-stopwords.add("ext")
+stopwords.add("info")
+stopwords.add("meetbot")
+stopwords.add("supybot")
 
 wc = WordCloud(max_words=1000, mask=mask, stopwords=stopwords, margin=10,
                random_state=1).generate(text)
