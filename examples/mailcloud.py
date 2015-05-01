@@ -9,57 +9,74 @@ from os import path
 from scipy.misc import imread
 import matplotlib.pyplot as plt
 import random
+import tempfile
 
 from wordcloud import WordCloud, STOPWORDS
+
+import requests
+
+
+def get_meeting_log(url):
+    """ get some logs and return them for you lol """
+    response = requests.get(url)
+    return response.text
+
+
+def scrub_logs(text):
+    lines = text.split("\n")
+
+    # Strip timestamp and the nick of speakers
+    lines = [
+        line[8:].split('> ', 1)[-1].split(' * ', 1)[-1].strip()
+        for line in lines
+        if line.strip()
+    ]
+
+    text = "\n".join(lines)
+    return text
+
+
+def test_scrub_logs():
+    scrubbed_logs = scrub_logs("""
+    there once was a guy who was cool
+    blahblahblah <threbean> this is the shit.
+    1234567890 * pingou lol
+    """)
+
+    print scrubbed_logs
 
 
 def grey_color_func(word, font_size, position, orientation, random_state=None):
     return "hsl(0, 0%%, %d%%)" % random.randint(60, 100)
 
-d = path.dirname(__file__)
 
-# read the mask image
-# taken from
-mask = imread(path.join(d, "Fedora_logo_simple.png"))
+def generate_word_cloud(text, mask_filename):
+    d = path.dirname(__file__)  #??
+    mask = imread(path.join(d, mask_filename))
 
-# preprocessing text to remove timestamps
-filename = "infrastructure.2015-04-30-18.00.log.txt"
+    # adding movie script specific stopwords
+    stopwords = STOPWORDS.copy()
+    stopwords.add("info")
+    stopwords.add("meetbot")
+    stopwords.add("supybot")
 
-with open(filename, "r") as f:
-    lines = f.readlines()
+    wc = WordCloud(max_words=1000, mask=mask, stopwords=stopwords, margin=10,
+                random_state=1).generate(text)
 
-# Strip timestamp and the nick of speakers
-lines = [
-    line[8:].split('> ', 1)[-1].split(' * ', 1)[-1].strip()
-    for line in lines
-    if line.strip()
-]
-
-text = "".join(lines)
+    _, tmpfilename = tempfile.mkstemp('-wordcloud.png')
+    wc.to_file(tmpfilename)
+    return tmpfilename
 
 
-# preprocessing the text a little bit
-text = text.replace("HAN", "Han")
-text = text.replace("LUKE'S", "Luke")
+def test_generate_word_cloud():
 
-# adding movie script specific stopwords
-stopwords = STOPWORDS.copy()
-stopwords.add("info")
-stopwords.add("meetbot")
-stopwords.add("supybot")
+    # preprocessing text to remove timestamps
+    filename = "infrastructure.2015-04-30-18.00.log.txt"
+    with open(filename, "r") as f:
+        lines = f.readlines()
+    text = "\n".join(lines)
+    scrubbed = scrub_logs(text)
+    fname = generate_word_cloud(scrubbed, "Fedora_logo_simple.png")
+    print fname
 
-wc = WordCloud(max_words=1000, mask=mask, stopwords=stopwords, margin=10,
-               random_state=1).generate(text)
-
-# store default colored image
-default_colors = wc.to_array()
-plt.title("Custom colors")
-plt.imshow(wc.recolor(color_func=grey_color_func, random_state=3))
-wc.to_file("fedora-mail-cloud.png")
-# wc.to_file('%s' + ".png") %s filename
-plt.axis("off")
-plt.figure()
-plt.title("Default colors")
-plt.imshow(default_colors)
-plt.axis("off")
-plt.show()
+test_generate_word_cloud()
